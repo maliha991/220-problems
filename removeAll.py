@@ -1,4 +1,4 @@
-def removeAll(source, size, element):
+def remove_all(source, size, element):
     twos = 0
     for k in range(size):
         if source[k] == element:
@@ -20,4 +20,4 @@ def removeAll(source, size, element):
 
 if __name__ == "__main__":
     source = [10, 2, 2, 30, 2, 50, 2, 2, 0, 0]
-    print(removeAll(source, 8, 2))
+    print(remove_all(source, 8, 2))
